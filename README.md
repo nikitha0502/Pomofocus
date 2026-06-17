@@ -1,16 +1,32 @@
-# React + Vite
+# Pomofocus 🍅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, modern, and interactive Pomodoro Timer built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
+- **Customizable Intervals:** Set your own durations for Work, Short Breaks, and Long Breaks.
+- **Session Tracking:** Automatically tracks your work sessions and triggers a Long Break every 4 sessions.
+- **Aesthetic UI:** Premium glassmorphism design with dynamic colors and a lo-fi study background.
+- **Audio Notifications:** Uses native HTML5 Audio to play a pleasant chime when a session ends.
+- **Fully Responsive:** Works perfectly on desktop and mobile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Running Locally
 
-## React Compiler
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nikitha0502/Pomofocus.git
+   ```
+2. Install dependencies:
+   ```bash
+   cd Pomofocus
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+- React
+- Vite
+- Vanilla CSS
+- Lucide React (Icons)
